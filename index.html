@@ -1,11 +1,101 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!-- head definitions go here -->
-    </head>
-    <body>
-        <p>
-        Hello Woorld!
-        </p>
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f5f1">
+  <meta name="description" content="Patrícia Szabó, PhD — Research Engineer working across XR, digital health, human–computer interaction, and software engineering.">
+  <meta name="keywords" content="Research Engineer, XR Engineer, VR Developer, Unity, Digital Health, Health Informatics, HCI, Research Software Engineer">
+  <meta name="author" content="Patrícia Szabó">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Patrícia Szabó, PhD — Research Engineer · XR & Digital Health">
+  <meta property="og:description" content="Immersive and interactive systems for cognitive assessment, rehabilitation, and digital health.">
+  <meta property="og:url" content="https://patriciaszabo.dev/">
+  <meta property="og:image" content="https://patriciaszabo.dev/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://patriciaszabo.dev/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Patrícia Szabó, PhD — Research Engineer · XR & Digital Health</title>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Patrícia Szabó","honorificSuffix":"PhD","url":"https://patriciaszabo.dev/","email":"mailto:hello@patriciaszabo.dev","jobTitle":"Research Engineer","alumniOf":{"@type":"CollegeOrUniversity","name":"University of Pannonia"},"knowsAbout":["Virtual reality","Digital health","Health informatics","Human-computer interaction","Software engineering","Cognitive rehabilitation"]}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Patrícia Szabó, home"><span>PS</span><strong>Patrícia Szabó</strong></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Primary navigation">
+      <a href="#work">Projects</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a class="nav-cv" href="PATRICIA_SZABO_CV.pdf" download>Download CV</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Research Engineer · XR & Digital Health</p>
+        <h1>Engineering immersive systems for <em>health, cognition, and human capability.</em></h1>
+        <p class="hero-text">I’m Patrícia Szabó, PhD—a computer science engineer developing and evaluating VR and interactive technologies for cognitive assessment, rehabilitation, and accessible digital health.</p>
+        <div class="actions"><a class="button primary" href="#work">Explore selected work <span aria-hidden="true">↘</span></a><a class="button" href="#research">View research</a></div>
+        <ul class="hero-facts" aria-label="Professional highlights">
+          <li><strong>PhD</strong><span>Information Science & Technology</span></li>
+          <li><strong>18</strong><span>Peer-reviewed works listed</span></li>
+          <li><strong>Research + industry</strong><span>From prototypes to infrastructure</span></li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orb"><div class="orbit o1"></div><div class="orbit o2"></div><div class="core"></div><span class="node n1"></span><span class="node n2"></span><span class="node n3"></span></div>
+        <p>XR <span>×</span> HCI <span>×</span> HEALTH</p>
+      </div>
+    </section>
+
+    <section class="signal-band" aria-label="Core domains"><span>Software engineering</span><span>Immersive interaction</span><span>Evidence-led design</span><span>Clinical collaboration</span></section>
+
+    <section class="section work" id="work">
+      <div class="section-head"><div><p class="eyebrow">Selected engineering work</p><h2>Research translated into systems.</h2></div><p>Projects where software engineering, experimental evaluation, and real human needs meet.</p></div>
+      <div class="project-list" id="project-list"></div>
+    </section>
+
+    <section class="section capabilities" id="expertise">
+      <div class="section-head"><div><p class="eyebrow">Expertise</p><h2>One interdisciplinary practice.</h2></div><p>Connecting technical implementation with research methods and user-centred evaluation.</p></div>
+      <div class="capability-grid">
+        <article><span>01</span><h3>XR engineering</h3><p>Designing and developing immersive applications with Unity and Oculus/VR SDKs for assessment, training, and rehabilitation.</p><ul><li>Unity Engine</li><li>C#</li><li>VR interaction</li></ul></article>
+        <article><span>02</span><h3>Digital health</h3><p>Interactive systems for cognitive testing, motor and pulmonary rehabilitation, health education, and assistive technology.</p><ul><li>Health informatics</li><li>Serious games</li><li>Accessibility</li></ul></article>
+        <article><span>03</span><h3>HCI & research</h3><p>Building studies around prototypes through user-centred design, usability testing, interdisciplinary collaboration, and analysis.</p><ul><li>Study design</li><li>UX evaluation</li><li>Scientific writing</li></ul></article>
+        <article><span>04</span><h3>Software delivery</h3><p>Industry experience across application development, containerisation, release pipelines, Linux systems, and project coordination.</p><ul><li>Azure DevOps</li><li>Docker / Podman</li><li>Git</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section research" id="research">
+      <div class="research-intro"><p class="eyebrow">Research</p><h2>Immersive technology as an instrument—not an end.</h2><p>My research investigates how VR-based serious games and cognitive assessment tools can support rehabilitation, assistive technology, and digital health. The focus is on usable, evidence-led systems developed with psychologists and healthcare professionals.</p><a class="text-link" href="Patricia_Szabo_List_Of_Publications.pdf">View complete publication list <span aria-hidden="true">↗</span></a></div>
+      <div class="publications"><div class="pub-heading"><span>Selected publications</span><span>Contribution</span></div><div id="publication-list"></div></div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-head"><div><p class="eyebrow">Experience</p><h2>Across lab, lecture room, and production systems.</h2></div><p>A career spanning research engineering, academic leadership, and industry software operations.</p></div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-lead"><p class="eyebrow">About</p><h2>Technical depth, shaped by interdisciplinary work.</h2></div>
+      <div class="about-copy"><p>My background combines computer science engineering, health informatics, immersive technology, and human–computer interaction. I completed my PhD at the University of Pannonia in 2025, researching VR and game-based approaches to cognitive development and rehabilitation.</p><p>Before and alongside research, I worked in application and IT engineering roles involving software development, testing, containers, CI/CD, Linux systems, and product coordination. That experience informs how I approach research prototypes: as systems that must be robust, understandable, and useful beyond a demo.</p></div>
+      <div class="details-grid">
+        <div><p class="mini-title">Technical toolkit</p><div class="tag-groups"><p><strong>Programming</strong> C#, Java, Python, PHP, JavaScript, HTML/CSS, SQL</p><p><strong>XR</strong> Unity Engine, Oculus/VR SDKs</p><p><strong>Infrastructure</strong> Git, Azure DevOps Pipelines, Docker, Podman, Linux</p><p><strong>Product & research</strong> Jira, Confluence, user-centred design, usability testing</p></div></div>
+        <div><p class="mini-title">Education</p><ol class="education"><li><span>2022—2025</span><strong>PhD, Information Science and Technology</strong><small>University of Pannonia · summa cum laude</small></li><li><span>2020—2022</span><strong>MSc, Computer Science Engineering</strong><small>Technical Healthcare Applications</small></li><li><span>2015—2019</span><strong>BSc, Business Informatics Engineering</strong></li></ol></div>
+      </div>
+    </section>
+
+    <section class="section international">
+      <div><p class="eyebrow">Teaching & international work</p><h2>Technical leadership through teaching and collaboration.</h2></div>
+      <div class="international-grid"><article><h3>University teaching</h3><p>Teaching Mobile Programming, Virtual Reality, and Applied Multimedia; supervising BSc and MSc work across VR, health technology, mobile, and game development.</p></article><article><h3>European research networks</h3><p>Science Communication Coordinator for COST Action CA19104 a-STEP (2022–2024), and working-group participation in YouthDMH, PAAR-net, and EDEM.</p></article><article><h3>Scientific community</h3><p>Recipient of a 2024 womENcourage grant in Responsible Computing for Gender Equality, supporting presentation of immersive VR research in Madrid.</p></article></div>
+    </section>
+
+    <section class="contact" id="contact"><p class="eyebrow">Start a conversation</p><h2>Building research technology with real-world purpose?</h2><p>I’m interested in research engineering, XR, digital health, HCI, and R&D opportunities in international teams.</p><a class="contact-email" href="mailto:hello@patriciaszabo.dev">hello@patriciaszabo.dev <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="PATRICIA_SZABO_CV.pdf" download>Download CV</a><a href="Patricia_Szabo_List_Of_Publications.pdf">Publications</a></div></section>
+  </main>
+  <footer><span>© <span id="year"></span> Patrícia Szabó</span><span>Research Engineer · XR & Digital Health</span><a href="#top">Back to top ↑</a></footer>
+  <script src="script.js" defer></script>
+</body>
 </html>
